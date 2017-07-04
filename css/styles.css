@@ -89,11 +89,32 @@ header {
 	color: white;
 	background-color: rgba(54,196,197, 0.6);
 	margin-left: 660px;
+	padding-left: 50px;
+	padding-top: 100px;
 }
+
 
 .texte {
 	width: 500px;
 }
+
+.texte p {
+	padding-top: 20px;
+}
+
+.mini-rectangle-1 , .mini-rectangle-2{
+	padding-top: 40px;
+	margin-top: 40px;
+	border:  solid 1px white;
+	width: 200px;
+	height: 195px;
+}
+
+/* blog*/
+#blog p {
+	text-align: left;
+}
+
 
 /* history*/
 
