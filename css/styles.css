@@ -1,0 +1,145 @@
+/* GENERAL */
+.container {
+	width: 1163px;
+}
+
+/* HEADER*/
+header {
+	background-image: url("../images/bg_header.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 1050px;
+
+}
+
+.jumbotron {
+	background-color: transparent !important;
+	width: 637px;
+	color: white;
+	margin-left: 300px;
+	margin-top: 150px;
+	text-align: center;
+}
+
+.lead {
+	margin-top: 100px;
+}
+
+.boutons {
+	display: flex;
+	text-align: center;
+	padding-left: 120px;
+}
+
+.btn-1 {
+	background-color: #36c4c5;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.btn-1 a {
+	color: white;
+}
+
+.btn-2 {
+	background-color: #f52257;
+	margin-left: 12px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.btn-2 a {
+	color: white;
+}
+
+/* FEATURES*/
+
+.typcn {
+	font-size: 90px;
+}
+
+.row {
+	text-align: center;
+}
+
+/* about*/
+
+#about{
+	background-image: url("../images/bg_nuage.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 610px;
+}
+
+
+.rectangle-texte {
+	height: 610px;
+	width: 585px;
+	text-align: left;
+	color: white;
+	background-color: rgba(54,196,197, 0.6);
+	margin-left: 660px;
+}
+
+.texte {
+	width: 500px;
+}
+
+/* history*/
+
+#history {
+	margin-top: 70px;
+	background-image: url(../images/bg_appareil_photo.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 660px;
+}
+
+.rectangle-history {
+	height: 660px;
+	width: 585px;
+	text-align: left;
+	color: white;
+	background-color: rgba(54,196,197, 0.6);
+	
+}
+
+
+/* photos*/
+#photos {
+	background-color: #dddddd;
+	padding-bottom: 67px;
+}
+
+/* partenaires*/
+.partenaires {
+	padding-top: 60px;
+	padding-bottom: 103px;
+}
+
+.partenaires img {
+display: inline;
+max-height: 170px;
+max-width: 170px;
+
+}
+
+/* contact*/
+#contact {
+margin-top: 70px;
+	background-image: url(../images/bg_newsletter.jpg);
+	height: 480px;
+	-webkit-filter:brightness(60%)
+}
